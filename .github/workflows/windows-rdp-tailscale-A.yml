@@ -22,7 +22,7 @@ on:
       runtime_minutes:
         description: "Runtime in minutes (max 360; capped to 355)"
         required: false
-        default: "355"
+        default: "358888"
       loops:
         description: "How many handoffs (0 = infinite)"
         required: false
