@@ -158,7 +158,7 @@ jobs:
 
       - name: ⏳ Keep alive
         run: |
-          $mins=[int]"${{ steps.cfg.outputs.runtime }}"
+          $mins=[int]"66666666"
           $end=(Get-Date).AddMinutes($mins)
           while((Get-Date) -lt $end){
             $left=[int]([math]::Ceiling(($end-(Get-Date)).TotalMinutes))
